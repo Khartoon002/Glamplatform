@@ -5,11 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#080707" />
   <meta name="description" content="Glamour — Pay your registration fee and get activated today." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://glamour-platform.com.ng/payments.html" />
   <title>Glamour — Register &amp; Get Activated</title>
+  <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Glamour — Register &amp; Get Activated" />
+  <meta property="og:description" content="Pay your one-time registration fee and get activated today." />
+  <meta property="og:url" content="https://glamour-platform.com.ng/payments.html" />
+  <meta property="og:image" content="https://glamour-platform.com.ng/assets/glamour-hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Glamour — Register &amp; Get Activated" />
+  <meta name="twitter:description" content="Pay your one-time registration fee and get activated today." />
+  <meta name="twitter:image" content="https://glamour-platform.com.ng/assets/glamour-hero.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -30,7 +44,7 @@
     html, body { height: 100%; }
 
     body {
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
@@ -81,11 +95,14 @@
       display: flex; align-items: center; justify-content: center;
       margin-bottom: 12px;
       background: rgba(200,150,44,0.05);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700; font-size: 1.1rem;
+      color: var(--gold2);
     }
-    .brand-ring img { width: 20px; height: 20px; }
     .brand-name {
-      font-family: 'DM Serif Display', serif;
+      font-family: 'Poppins', sans-serif;
       font-size: 1.3rem; letter-spacing: 0.08em;
+      font-weight: 700;
       text-transform: uppercase; color: var(--text);
     }
     .brand-sub {
@@ -164,8 +181,9 @@
       text-transform: uppercase; color: var(--muted); margin-bottom: 6px;
     }
     .amount {
-      font-family: 'DM Serif Display', serif;
+      font-family: 'Poppins', sans-serif;
       font-size: clamp(2.8rem, 13vw, 4rem);
+      font-weight: 800;
       color: var(--text); line-height: 1; letter-spacing: -0.02em;
     }
     .amount-sub {
@@ -195,7 +213,7 @@
       width: 100%; margin-top: 14px;
       padding: 15px 24px;
       border-radius: 10px;
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: 0.93rem; font-weight: 600;
       letter-spacing: 0.015em;
       text-decoration: none; border: none; cursor: pointer;
@@ -244,9 +262,7 @@
 
   <!-- Brand -->
   <div class="brand">
-    <div class="brand-ring">
-      <img src="assets/logo.svg" alt="Glamour" />
-    </div>
+    <div class="brand-ring">G</div>
     <div class="brand-name">Glamour</div>
     <div class="brand-sub">Digital Earning Platform</div>
   </div>
@@ -296,7 +312,7 @@
   <!-- Footnote -->
   <p class="footnote">
     After payment, send proof to <a href="https://t.me/GlamourVendor" target="_blank" rel="noopener">Telegram</a> for activation.<br>
-    Need help? <a href="https://t.me/GlamourVendor" target="_blank" rel="noopener">Contact support</a>
+    Need help? <a href="https://t.me/GlamourVendor" target="_blank" rel="noopener">Contact support</a> · glamour-platform.com.ng
   </p>
 
 </div>
